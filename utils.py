@@ -21,7 +21,7 @@ def calc_kld(generated_data, ground_truth, bins, range_min, range_max):
 
 def prepare_dataset(dataset, condition_size=None):
     if dataset == "lorenz":
-        with open("./datasets/lorenz_dataset/lorenz_dataset.pickle", "rb") as infile:
+        with open("./datasets/lorenz/lorenz_dataset.pickle", "rb") as infile:
             dataset = pickle.load(infile)
 
         x_train = np.concatenate(list(dataset["x_train"].values()))
