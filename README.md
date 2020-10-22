@@ -1,5 +1,3 @@
-This work has been conducted in FLaP lab. FLaP is a joint lab between IAV GmbH and DFKI GmbH. IAV is a leading engineering company in the automotive industry, designing products for powertrain, electronics, and vehicle development. DFKI is the german research center for artificial intelligence which is one of the leading AI research centers in Germany.
-
 # ForGAN
 Pytorch implementation of "[Probabilistic Forecasting of Sensory Data with Generative Adversarial Networks - ForGAN](https://ieeexplore.ieee.org/abstract/document/8717640)"
 
@@ -22,3 +20,6 @@ With code provided here, you should be able to reproduce values reported in the 
 # Environment
 Python = 3.6.8
 Pytorch = 1.0.1
+
+# Acknowledgement
+This work has been conducted in FLaP lab. FLaP is a joint lab between IAV GmbH and DFKI GmbH. IAV is a leading engineering company in the automotive industry, designing products for powertrain, electronics, and vehicle development. DFKI is the german research center for artificial intelligence which is one of the leading AI research centers in Germany.
