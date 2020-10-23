@@ -40,9 +40,9 @@ By running the code the following CRPS should be obtained.
 
 |  | G-Regression (MAE) | ForGAN (CRPS) |
 | ------ | ------ | ------ |
-| Lorenz dataset | $`2.39`$ | cell |
-| Mackey-Glass dataset | $`4.92 \times 10^-4`$ | cell |
-| Internet Traffic dataset | $`9.01 \times 10^7`$ | cell |
+| Lorenz dataset | $`2.39`$ | $`1.511`$ |
+| Mackey-Glass dataset | $`4.92 \times 10^-4`$ | $`1.91 \times 10^-4`$ |
+| Internet Traffic dataset | $`9.01 \times 10^7`$ | $`6.84 \times 10^7`$ |
 
 You can find further results and discussion in the paper.
 
