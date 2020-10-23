@@ -17,6 +17,8 @@ We take the structure of generator and build a deterministic model based on that
 ## Lorenz dataset
 To closely observe the performance our method we need extra information about the probability distribution of generative process. Therefore, we created a toy dataset called Lorenz dataset. The dataset contains 100000 time-series with length 24. The data has 5 modes and it is obtained using Lorenz equation with 5 different seed values. The process of generating dataset is discibed in paper with full details. The animation below shows ForGAN learning target probability distribution during training.
 
+![Training Video](img/train.mp4)
+
 ## Mackey-Glass dataset
 The time delay differential equation suggested by Mackey and Glass has been used widely as a standard benchmark model to generate chaotic time-series for the forecasting task.
 
