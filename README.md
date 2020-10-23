@@ -3,11 +3,11 @@ Pytorch implementation of "[Probabilistic Forecasting of Sensory Data with Gener
 
 ForGAN is one step ahead probabilistic forecasting. It utilizes the power of the conditional generative adversarial network to learn the the probability distribution of future values given the previous values. The following figure presents ForGAN architecture.
 
-![alt text](img/gan.pdf "GAN Architecture")
+![alt text](img/gan.png "ForGAN Architecture")
 
-![alt text](img/gen.pdf "Generator Architecture")
+![alt text](img/gen.png "Generator Architecture")
 
-![alt text](img/dis.pdf "Discriminator Text")
+![alt text](img/dis.png "Discriminator Architecture")
 
 We tested ForGAN against two publicly available datasets, namely Mackey-Glass dataset and Internet traffic dataset (A5M), and a new dataset, Lorenz dataset. The impressive performance of ForGAN demonstrates its high capability in forecasting future values.
 
